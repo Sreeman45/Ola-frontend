@@ -3,11 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://Sreeman45.github.io/Ola-frontend/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d dist"
   },
   "dependencies": {
     "@radix-ui/react-dropdown-menu": "^2.1.6",
