@@ -5,7 +5,7 @@ import { defineConfig } from "vite"
 
 // https://vite.dev/config/
 export default defineConfig({
-  base:"/olaperfumes",
+  base:"/Ola-frontend",
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
